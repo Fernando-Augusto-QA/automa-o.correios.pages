@@ -19,7 +19,7 @@ public class InicializarTeste extends DriversFactory {
 	}
 
 	public static void encerrerTeste() {
-
+		driver.quit();
 	}
 
 }

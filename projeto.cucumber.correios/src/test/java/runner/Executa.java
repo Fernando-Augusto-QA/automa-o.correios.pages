@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "src/test/resources/features",
+		features = "src/test/resources",
 		glue = "steps",
 		tags = "@regressivo",
 		monochrome = true,

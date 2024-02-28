@@ -47,7 +47,7 @@ public class Metodos extends DriversFactory {
 		}
 	}
 
-	public void mudarAba() {
+	public void mudarAba() {                 
 		try {
 			String janelaPrincipal = driver.getWindowHandle();
 			Set<String> todasJanelas = driver.getWindowHandles();
