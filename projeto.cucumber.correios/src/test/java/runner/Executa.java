@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		glue = "steps",
 		tags = "@regressivo",
 		monochrome = true,
-		dryRun = true,
+		dryRun = false,
 		plugin = {"pretty","html:target/cucumber-report.html"},
 		snippets = SnippetType.CAMELCASE
 		)
